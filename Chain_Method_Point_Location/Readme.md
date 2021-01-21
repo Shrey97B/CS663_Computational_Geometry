@@ -8,26 +8,43 @@ The files Result1.txt, Result2.txt and Result3.txt contains outputs of console f
 The files Image1.png, Image2.png and Image3.png show the representation of graphs formed in the above inputs respectively.
 
 The input format for the problem is:
+
 N
+
 x1 y1
+
 x2 y2
+
 .
 .
 .
+
 xN yN
+
 M
+
 p11 p12
+
 p21 p22
+
 p31 p32
+
 .
 .
+
 pM1 pM2
+
 Q
+
 q1x q1y
+
 q2x q2y
+
 q3x q3y
+
 .
 .
+
 qQx qQy
 
 Explaination: 
@@ -39,18 +56,31 @@ Q is the number of queries
 Each query q gas qix and qiy indicating the coordinates of the query point.
 
 Output Format:
+
 Query point is left to the entire planar subdivision
+
 or
+
 Query point is right to the entire planar subdivision
+
 or
+
 Query point is below the entire planar subdivision
+
 or
+
 Query point is above the entire planar subdivision
+
 or
+
 Query point is just right of the segment ((x1,y1),(x2,y2))
+
 or
+
 Query point is just left of the segment ((x1,y1),(x2,y2))
+
 or
+
 Query point is just on the segment ((x1,y1),(x2,y2))
 
 Explaination: The statements are self explanatory and based on how the super tree nodes are accessed.
