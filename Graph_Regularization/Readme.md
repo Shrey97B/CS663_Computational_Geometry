@@ -8,19 +8,30 @@ The files Output_01.txt, Output_02.txt, Output_03.txt, Output_04.txt contains ou
 The files Reg_01.png, Reg_02.png, Reg_03.png, Reg_04.png show the representation of graphs formed in the above inputs respectively.
 
 The input format for the problem is:
+
 N
+
 x1 y1
+
 x2 y2
+
 .
 .
 .
+
 xN yN
+
 M
+
 p11 p12
+
 p21 p22
+
 p31 p32
+
 .
 .
+
 pM1 pM2
 
 Explaination: 
@@ -31,12 +42,19 @@ It indicates that there is an edge between the points having index pi1 and index
 These indexes provided for edges are based on the original order and not the order after sorting, which is applied in the algorithm.
 
 Output Format:
+
 No new edges have been added
+
 or
+
 New edges added between points:
+
 (x11,y11) (x12,y12)
+
 (x21,y21) (x22,y22)
+
 (x31,y31) (x32,y32)
+
 .
 .
 .
