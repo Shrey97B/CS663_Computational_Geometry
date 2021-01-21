@@ -1,0 +1,6 @@
+Query point is just left of the segment ((5.000000,4.000000),(4.000000,10.000000))
+Query point is just right of the segment ((1.000000,3.000000),(3.000000,6.000000))
+Query point is right to the entire planar subdivision
+Query point is just left of the segment ((3.000000,6.000000),(4.000000,10.000000))
+Query point is above the entire planar subdivision
+Query point is just right of the segment ((2.000000,1.000000),(5.000000,4.000000))
